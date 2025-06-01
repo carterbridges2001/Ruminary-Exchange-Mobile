@@ -1,0 +1,49 @@
+{
+  "name": "ruminary-exchange-mobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@reduxjs/toolkit": "^2.0.1",
+    "expo": "~50.0.0",
+    "expo-constants": "~15.0.0",
+    "expo-status-bar": "~1.11.0",
+    "firebase": "^10.7.0",
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "react-native-gesture-handler": "~2.14.0",
+    "react-native-reanimated": "~3.6.0",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-vector-icons": "^10.0.0",
+    "react-redux": "^9.0.4",
+    "@stripe/stripe-react-native": "^0.35.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/jest": "^29.5.2",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "~0.72.0",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.54.0",
+    "eslint-config-universe": "^12.0.0",
+    "jest": "^29.2.1",
+    "jest-expo": "~50.0.1",
+    "prettier": "^3.1.0",
+    "react-test-renderer": "18.2.0",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
